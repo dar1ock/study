@@ -4,14 +4,14 @@ main()
 {
     int a, b;
 
-    printf("Введите 2а числа: ");
+    printf("Input two different integers: ");
     scanf("%d %d", &a, &b);
 
-    printf("\nСумма: %d\n", a + b);
-    printf("Разность: %d\n", a - b);
-    printf("Произведение: %d\n", a * b);
-    printf("Частное: %.2f\n", (float) a / b);
-    printf("По модулю: %d\n", a % b);
+    printf("\nSum: %d\n", a + b);
+    printf("Sibtract: %d\n", a - b);
+    printf("Product: %d\n", a * b);
+    printf("Divide: %.2f\n", (float) a / b);
+    printf("Abs: %d\n", a % b);
 
     return 0;
 }
